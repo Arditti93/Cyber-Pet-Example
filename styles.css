@@ -1,0 +1,144 @@
+body {
+    background: 
+    linear-gradient(to left, #8f3308, #353b5e );
+    overflow: hidden;
+}
+
+h1{
+    display: flex;
+    justify-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    font-weight: bold;
+}
+
+#namePet {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+#namePetInpt {
+    border: 0px;
+    padding: 1rem;
+    font-size: 20px;
+    border-radius: 5px;
+    margin: 5px;
+}
+
+#namePetBtn {
+    padding: 1rem;
+    border: 0px;
+    margin-left: 0px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+#namePetBtn a:hover,
+button:hover {
+    background-color: #c7bc77;
+}
+
+.hidden {
+    display: none;
+}
+
+#stats {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+  }
+  
+  #petChooser {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 1%;
+  }
+
+
+  #petImage {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+    border-radius: 15%; 
+  }
+  
+  #namePet {
+    margin-top: 20px;
+  }
+  
+  #namePetInpt {
+    width: 200px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  #stats {
+    margin-top: 20px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+  }
+  
+  #stats p {
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  
+  progress {
+    width: 200px;
+    height: 20px;
+  }
+
+
+  
+ @media (max-width: 500px) {
+  body {
+      background: linear-gradient(to left, #8f3308, #353b5e );
+  }
+
+  h1 {
+      font-size: 16px;
+  }
+
+  #namePet,
+  #stats,
+  #petChooser {
+      margin-top: 5px; 
+  }
+
+  #stats {
+      margin-bottom: 10px; 
+  }
+
+  #petImage {
+      width: 75px;
+      height: 75px; 
+  }
+
+  #namePetInpt {
+      width: 120px; 
+      padding: 5px; 
+      font-size: 12px; 
+  }
+
+  #namePetBtn {
+      padding: 0.5rem; 
+      font-size: 12px; 
+  }
+
+  #stats p {
+      font-size: 12px; 
+  }
+
+  progress {
+      width: 30px; 
+      height: 12px; 
+  }
+}

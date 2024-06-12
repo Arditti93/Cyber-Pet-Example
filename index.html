@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Pokemon Pet Game</title>
+</head>
+<body>
+
+  <h1>Pokemon Pet Game</h1>
+  
+  <img id="petImage" src="./images/pokemon-logo.webp" alt="Pokemon Logo">
+  <div id="gameContainer">
+      <div id="petChooser">
+        <button id="bulbasaurBtn">Choose Bulbasaur</button>
+        <button id="charmanderBtn">Choose Charmander</button>
+        <button id="squirtleBtn">Choose Squirtle</button>
+      </div>
+
+
+
+       <div id="namePet">
+          <input type="text" name="name" placeholder="Name your pet!" id="namePetInpt">
+          <button id="namePetBtn">Start Game</button>
+      </div>
+    </div>
+  </div>
+ 
+
+  <div id="stats">
+    <p>Health</p>
+    <progress id="health" value="100" max="100"></progress>
+    <button id="healthBtn">Drink Potion</button>
+
+    <p>Hunger</p>
+    <progress id="hunger" value="100" max="100">hunger</progress>
+    <button id="hungerBtn">Eat Berry</button> 
+
+    <p id="specialPet">Special</p>
+    <progress id="special" value="100" max="100"></progress>
+    <button id="specialBtn">Drink Special Potion</button>
+
+    <p>Xp</p>
+    <progress id="xp" value="0" max="100"></progress>
+    <button id="evolveBtn">Evolve</button>
+  </div>
+
+<script src="./script.js"></script>
+</body>
+</html>
